@@ -22,7 +22,7 @@ export default function Assignments() {
                             <Card className="border-gray-700 bg-black my-4">
                                 <CardHeader>
                                     <CardTitle className="text-gray-300">Assignment 1</CardTitle>
-                                    <CardDescription>Description</CardDescription>
+                                    <CardDescription>desc</CardDescription>
                                 </CardHeader>
                                 <CardContent>
                                     <a href="#" className="p-3 bg-gray-400 rounded-lg">Github Link</a>
@@ -33,7 +33,7 @@ export default function Assignments() {
                                 <Card className="border-gray-700 bg-black">
                                 <CardHeader> 
                                     <CardTitle className="text-gray-300">Assignment 2</CardTitle>
-                                    <CardDescription>Description</CardDescription>
+                                    <CardDescription>desc</CardDescription>
                                 </CardHeader>
                                 <CardContent>
                                     <a href="Github Link" className="p-3 bg-gray-400 rounded-lg">Github Link</a>
