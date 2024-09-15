@@ -21,18 +21,18 @@ export default function Assignments() {
                         <div className="items-center mb-2">
                             <Card className="border-gray-700 bg-black my-4">
                                 <CardHeader>
-                                    <CardTitle className="text-gray-300">Assignment 1</CardTitle>
-                                    <CardDescription>desc</CardDescription>
+                                    <CardTitle className="text-gray-300">Assignment 0</CardTitle>
+                                    <CardDescription>Dummy assignment for testing site, a simple summation script.</CardDescription>
                                 </CardHeader>
                                 <CardContent>
-                                    <a href="#" className="p-3 bg-gray-400 rounded-lg">Github Link</a>
+                                    <a href="https://github.com/isaadev/isaa-assignment-0" className="p-3 bg-gray-400 rounded-lg">Github Link</a>
                                 </CardContent>
                                 
                                 </Card>
 
                                 <Card className="border-gray-700 bg-black">
                                 <CardHeader> 
-                                    <CardTitle className="text-gray-300">Assignment 2</CardTitle>
+                                    <CardTitle className="text-gray-300">Assignment 1</CardTitle>
                                     <CardDescription>desc</CardDescription>
                                 </CardHeader>
                                 <CardContent>
