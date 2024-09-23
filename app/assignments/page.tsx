@@ -33,10 +33,10 @@ export default function Assignments() {
                                 <Card className="border-gray-700 bg-black">
                                 <CardHeader> 
                                     <CardTitle className="text-gray-300">Assignment 1</CardTitle>
-                                    <CardDescription>desc</CardDescription>
+                                    <CardDescription> Collecting and analyzing data on elevator arrival times at the ground floor of CDS to determine the best location to wait in order to minimize the expected walking distance to the next arriving elevator.</CardDescription>
                                 </CardHeader>
                                 <CardContent>
-                                    <a href="Github Link" className="p-3 bg-gray-400 rounded-lg">Github Link</a>
+                                    <a href="https://github.com/isaadev/isaa-assignment-1" className="p-3 bg-gray-400 rounded-lg">Github Link</a>
                                 </CardContent>
                                 <CardFooter>
                                 
