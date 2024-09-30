@@ -1,55 +1,38 @@
 import Link from 'next/link';
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
 
 export default function Assignments() {
     return (
         <>
             <div className="p-6">
                 <div className="p-10">
-                    <Card className="border-gray-700 bg-black p-4 ">
-                        <CardHeader className="">
-                            <CardTitle className="text-gray-300">Assignments</CardTitle>
-                        </CardHeader>
-                       
-                        <div className="items-center mb-2">
-                            <Card className="border-gray-700 bg-black my-4">
-                                <CardHeader>
-                                    <CardTitle className="text-gray-300">Assignment 0</CardTitle>
-                                    <CardDescription>Dummy assignment for testing site, a simple summation script.</CardDescription>
-                                </CardHeader>
-                                <CardContent>
-                                    <a href="https://github.com/isaadev/isaa-assignment-0" className="p-3 bg-gray-400 rounded-lg">Github Link</a>
-                                </CardContent>
-                                
-                                </Card>
+                    <div className="border-gray-700 bg-black p-4">
+                        <h2 className="text-gray-300 text-lg mb-4">Assignments</h2>
 
-                                <Card className="border-gray-700 bg-black">
-                                <CardHeader> 
-                                    <CardTitle className="text-gray-300">Assignment 1</CardTitle>
-                                    <CardDescription> Collecting and analyzing data on elevator arrival times at the ground floor of CDS to determine the best location to wait in order to minimize the expected walking distance to the next arriving elevator.</CardDescription>
-                                </CardHeader>
-                                <CardContent>
-                                    <a href="https://github.com/isaadev/isaa-assignment-1" className="p-3 bg-gray-400 rounded-lg">Github Link</a>
-                                </CardContent>
-                                <CardFooter>
-                                
-                                </CardFooter>
-                               
-                            </Card>
-                        </div>
-                         <Link href="/" className="hover:underline hover:underline-offset-4 text-gray-400 ml-2 my-2">← Go Back</Link>
-                    </Card>
-                    
+                        <ul className="list-disc pl-6 text-gray-300 space-y-4 mb-6">
+                            <li>
+                                <strong>Assignment 0:</strong> Dummy assignment for testing site, a simple summation script.
+                                <div>
+                                    <a href="https://github.com/isaadev/isaa-assignment-0" className="block text-sm bg-gray-400 rounded-lg p-2 mt-2 w-fit">Github Link</a>
+                                </div>
+                            </li>
+                            <li>
+                                <strong>Assignment 1:</strong> Collecting and analyzing data on elevator arrival times at the ground floor of CDS to determine the best location to wait in order to minimize the expected walking distance to the next arriving elevator.
+                                <div>
+                                    <a href="https://github.com/isaadev/isaa-assignment-1" className="block text-sm bg-gray-400 rounded-lg p-2 mt-2 w-fit">Github Link</a>
+                                </div>
+                            </li>
+                            <li>
+                                <strong>Assignment 2:</strong> Visualization of KMeans algorithm.
+                                <div>
+                                    <a href="https://github.com/isaadev/isaa-assignment-2" className="block text-sm bg-gray-400 rounded-lg p-2 mt-2 w-fit">Github Link</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <Link href="/" className="hover:underline hover:underline-offset-4 text-gray-400 ml-2 my-8">← Go Back</Link>
+                    </div>
                 </div>
             </div>
         </>
-
     );
 }
