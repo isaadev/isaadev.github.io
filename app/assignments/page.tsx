@@ -28,7 +28,7 @@ export default function Assignments() {
                                 </div>
                             </li>
                             <li>
-                                <strong>Assignment 2:</strong> SVD algorithm implementation.
+                                <strong>Assignment 3:</strong> SVD algorithm implementation.
 							<div>
 								 <a href="https://github.com/isaadev/isaa-assignment-3" className="block text-sm bg-gray-400 rounded-lg p-2 mt-2 w-fit">Github Link</a>
                                 </div>
