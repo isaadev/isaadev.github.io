@@ -46,7 +46,12 @@ export default function Assignments() {
 								 <a href="https://github.com/isaadev/isaa-assignment-5" className="block text-sm bg-gray-400 rounded-lg p-2 mt-2 w-fit">Github Link</a>
                                 </div>
 							</li>
-
+                            <li>
+                                <strong>Midterm:</strong> Kaggle Competition
+							<div>
+								 <a href="https://github.com/isaadev/506_midterm/tree/main" className="block text-sm bg-gray-400 rounded-lg p-2 mt-2 w-fit">Github Link</a>
+                                </div>
+							</li>
                         </ul>
 						
                         <Link href="/" className="hover:underline hover:underline-offset-4 text-gray-400 ml-2 my-8">← Go Back</Link>
