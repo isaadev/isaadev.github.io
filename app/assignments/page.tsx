@@ -76,6 +76,14 @@ export default function Assignments() {
 
                                 </div>
 							</li>
+                            <li>
+                                <strong>Assignment 10:</strong> Image Retrieval
+							<div>
+								<a href="https://github.com/isaadev/isaa-assignment-10" className="block text-sm bg-gray-400 rounded-lg p-2 mt-2 w-fit">Github Link</a>
+                                <a href="https://youtu.be/c9IcLPJnOrc" className="block text-sm bg-gray-400 rounded-lg p-2 mt-2 w-fit">Demo Link</a>
+
+                                </div>
+							</li>
                         </ul>
 						
                         <Link href="/" className="hover:underline hover:underline-offset-4 text-gray-400 ml-2 my-8">← Go Back</Link>
